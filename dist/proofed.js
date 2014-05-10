@@ -10,7 +10,7 @@
   app.use(express["static"](__dirname + "/public"));
 
   app.get("/", function(request, response) {
-    return response.send("Hello World!");
+    return response.send("<h1>Proofed</h1>");
   });
 
   app.listen(app.get("port"), function() {
