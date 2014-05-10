@@ -5,9 +5,9 @@
   "private": false,
   "main": "dist/proofed.js",
   "scripts": {
-    "test": "todo :-)",
+    "test": "nptodo :-)",
     "start": "gulp build --require coffee-script/register && node ./dist/proofed.js",
-    "postinstall": "gulp build --require coffee-script/register"
+    "postinstall": "./node_modules/.bin/gulp build --require coffee-script/register"
   },
   "repository": {
     "type": "git",
