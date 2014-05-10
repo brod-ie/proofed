@@ -24,6 +24,9 @@ reporter = require("coffeelint-stylish").reporter
 rename = require "gulp-rename"
 clean = require "gulp-clean"
 
+gulp.task "heroku:production", ["clean", "scripts"] ->
+  console.log "Built"
+
 
 gulp.task "clean", ->
   gulp.src("./dist",
