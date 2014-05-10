@@ -3,21 +3,6 @@ gutil = require "gulp-util"
 
 coffee = require "gulp-coffee"
 uglify = require "gulp-uglify"
-sass = require "gulp-sass"
-browserify = require "gulp-browserify"
-coffeelint = require "gulp-coffeelint"
-notify = require "gulp-notify"
-reporter = require("coffeelint-stylish").reporter
-rename = require "gulp-rename"
-clean = require "gulp-clean"
-
-gulp = require "gulp"
-gutil = require "gulp-util"
-
-coffee = require "gulp-coffee"
-uglify = require "gulp-uglify"
-sass = require "gulp-sass"
-browserify = require "gulp-browserify"
 coffeelint = require "gulp-coffeelint"
 notify = require "gulp-notify"
 reporter = require("coffeelint-stylish").reporter
