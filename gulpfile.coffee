@@ -29,9 +29,9 @@ gulp.task "scripts", [], ->
         path
     )
     .pipe gulp.dest "./dist/"
-    .pipe notify
-      message: "<%= file.relative %>"
-      title: "App compiled"
+    # .pipe notify
+    #   message: "<%= file.relative %>"
+    #   title: "App compiled"
 
   gulp.src "./src/public/**/*.*"
     .pipe rename( (path) ->
@@ -39,9 +39,6 @@ gulp.task "scripts", [], ->
       path
     )
     .pipe gulp.dest "./dist"
-    .pipe notify
-      message: "<%= file.relative %>"
-      title: "Public updated"
 
 gulp.task "default", ["scripts"], ->
   gulp.watch ["./src/**/*.coffee", "./src/public/**/*.*"], ["scripts"]
