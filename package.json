@@ -28,7 +28,8 @@
     "gulp-notify": "^1.2.5",
     "gulp-uglify": "^0.3.0",
     "gulp-coffee": "^1.4.3",
-    "coffeelint-stylish": "0.0.1"
+    "coffeelint-stylish": "0.0.1",
+    "gulp-util": "^2.2.14"
   },
   "homepage": "https://github.com/ryanbrodie/proofed"
 }
