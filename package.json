@@ -1,0 +1,36 @@
+{
+  "name": "Proofed",
+  "version": "0.0.0",
+  "description": "Heroku playground",
+  "private": false,
+  "main": "dist/proofed.js",
+  "scripts": {
+    "test": "todo :-)",
+    "start": "node dist/proofed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ryanbrodie/proofed"
+  },
+  "author": "Ryan Brodie <@_ryanbrodie>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanbrodie/proofed/issues"
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-coffee": "*",
+    "gulp-uglify": "*",
+    "gulp-browserify": "*",
+    "gulp-coffeelint": "*",
+    "coffeelint-stylish": "*",
+    "gulp-notify": "^1.2.5",
+    "gulp-rename": "1.2.0",
+    "gulp-clean": "^0.2.4",
+    "memcached": "^0.2.8"
+  },
+  "homepage": "https://github.com/ryanbrodie/proofed",
+  "dependencies": {
+    "express": "^4.1.2"
+  }
+}
